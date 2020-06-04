@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="AnimalSleepingBox" or defName="Shelf" or defName="HospitalBed" or defName="AnimalBed" or defName="Armchair" or defName="Table2x4c"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Stool</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table3x3c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table3x3c</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table2x2c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table2x2c</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table1x2c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table1x2c</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PlantPot"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>PlantPot</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Bed</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RoyalBed"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>RoyalBed</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="DiningChair"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>DiningChair</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>DoubleBed</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Dresser"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Dresser</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="EndTable"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>EndTable</defName>
+            <label>dummy</label>
+            <thingClass>Building</thingClass>
+          </ThingDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

@@ -10,8 +10,18 @@
         <value>
           <ThingDef>
             <defName>Stool</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -20,8 +30,18 @@
         <value>
           <ThingDef>
             <defName>Table3x3c</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -30,8 +50,18 @@
         <value>
           <ThingDef>
             <defName>Table2x2c</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -40,8 +70,18 @@
         <value>
           <ThingDef>
             <defName>Table1x2c</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -50,8 +90,18 @@
         <value>
           <ThingDef>
             <defName>PlantPot</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -60,8 +110,18 @@
         <value>
           <ThingDef>
             <defName>Bed</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -70,8 +130,18 @@
         <value>
           <ThingDef>
             <defName>RoyalBed</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -80,8 +150,18 @@
         <value>
           <ThingDef>
             <defName>DiningChair</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -90,8 +170,18 @@
         <value>
           <ThingDef>
             <defName>DoubleBed</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -100,8 +190,18 @@
         <value>
           <ThingDef>
             <defName>Dresser</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>
@@ -110,8 +210,18 @@
         <value>
           <ThingDef>
             <defName>EndTable</defName>
-            <label>dummy</label>
+            <label> </label>
             <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
           </ThingDef>
         </value>
       </li>

@@ -225,6 +225,9 @@
           </ThingDef>
         </value>
       </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef/interactionCellIcon[text()="DiningChair"]</xpath>
+      </li>
     </operations>
   </Operation>
 </Patch>

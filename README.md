@@ -1,6 +1,6 @@
 # NoVanillaFurniture
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 
 Just a simple patch-mod that removes all vanilla furniture definitions from the game. 
@@ -13,16 +13,14 @@ Things that are referenced in linkable facilities or requirements for royals hav
 
 Left the joy and royal-items, can remove them if needed.
 
-[table]
-	[tr]
-		[td]https://invite.gg/Mlie]![Image](https://i.imgur.com/zdzzBrc.png)
-[/td]
-		[td]https://github.com/emipa606/NoVanillaFurniture]![Image](https://i.imgur.com/kTkpTOE.png)
-[/td]
-	[/tr]
-[/table]
+![Image](https://i.imgur.com/O0IIlYj.png)
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+Since modding is just a hobby for me I expect no donations to keep modding. If you still want to show your support you can gift me anything from my https://store.steampowered.com/wishlist/id/Mlie]Wishlist or buy me a cup of tea.
+
+https://ko-fi.com/G2G55DDYD]![Image](https://i.imgur.com/Utx6OIH.png)
+
+
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 

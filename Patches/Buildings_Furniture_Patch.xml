@@ -108,7 +108,7 @@
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
         <value>
-          <ThingDef>
+          <ThingDef Name="Bed">
             <defName>Bed</defName>
             <label> </label>
             <thingClass>Building</thingClass>
@@ -168,7 +168,7 @@
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
         <value>
-          <ThingDef>
+          <ThingDef Name="DoubleBed">
             <defName>DoubleBed</defName>
             <label> </label>
             <thingClass>Building</thingClass>
@@ -227,6 +227,9 @@
       </li>
       <li Class="PatchOperationRemove">
         <xpath>/Defs/ThingDef/interactionCellIcon[text()="DiningChair"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Ideology">
+        <xpath>/Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Table2x4c" or thingDef="Shelf"]</xpath>
       </li>
     </operations>
   </Operation>

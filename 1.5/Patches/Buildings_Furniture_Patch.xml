@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="AnimalSleepingBox" or defName="Shelf" or defName="ShelfSmall" or defName="Bookcase" or defName="BookcaseSmall" or defName="HospitalBed" or defName="AnimalBed" or defName="Armchair" or defName="Table2x4c"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Stool</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table3x3c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table3x3c</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table2x2c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table2x2c</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table1x2c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table1x2c</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="PlantPot"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>PlantPot</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
+        <value>
+          <ThingDef Name="Bed">
+            <defName>Bed</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="RoyalBed"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>RoyalBed</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="DiningChair"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>DiningChair</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
+        <value>
+          <ThingDef Name="DoubleBed">
+            <defName>DoubleBed</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Dresser"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Dresser</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="EndTable"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>EndTable</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef/interactionCellIcon[text()="DiningChair"]</xpath>
+      </li>
+      <li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Ideology">
+        <xpath>/Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Table2x4c" or thingDef="Shelf" or thingDef="ShelfSmall"]</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

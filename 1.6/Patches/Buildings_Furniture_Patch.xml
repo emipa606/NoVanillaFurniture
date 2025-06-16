@@ -3,13 +3,93 @@
   <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationRemove">
-        <xpath>/Defs/ThingDef[defName="AnimalSleepingBox" or defName="Shelf" or defName="HospitalBed" or defName="AnimalBed" or defName="Armchair" or defName="Table2x4c"]</xpath>
+        <xpath>/Defs/ThingDef[defName="AnimalSleepingBox" or defName="Bookcase" or defName="BookcaseSmall" or defName="HospitalBed" or defName="AnimalBed"]</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Armchair"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Armchair</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="ShelfSmall"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>ShelfSmall</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Shelf"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Shelf</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
       </li>
       <li Class="PatchOperationReplace">
         <xpath>/Defs/ThingDef[defName="Stool"]</xpath>
         <value>
           <ThingDef>
             <defName>Stool</defName>
+            <label> </label>
+            <thingClass>Building</thingClass>
+            <graphicData>
+              <texPath>Things/Building/Misc/Empty</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+            </graphicData>
+            <selectable>false</selectable>
+            <building>
+              <isInert>true</isInert>
+              <isEdifice>false</isEdifice>
+              <deconstructible>false</deconstructible>
+            </building>
+          </ThingDef>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Table2x4c"]</xpath>
+        <value>
+          <ThingDef>
+            <defName>Table2x4c</defName>
             <label> </label>
             <thingClass>Building</thingClass>
             <graphicData>
@@ -229,7 +309,7 @@
         <xpath>/Defs/ThingDef/interactionCellIcon[text()="DiningChair"]</xpath>
       </li>
       <li Class="PatchOperationRemove" MayRequire="Ludeon.RimWorld.Ideology">
-        <xpath>/Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Table2x4c" or thingDef="Shelf"]</xpath>
+        <xpath>/Defs/StyleCategoryDef/thingDefStyles/li[thingDef="Table2x4c" or thingDef="Shelf" or thingDef="ShelfSmall"]</xpath>
       </li>
     </operations>
   </Operation>
